@@ -32,6 +32,8 @@ public class BootstrapData implements CommandLineRunner {
         publisher.setCity("St. Petersburg");
         publisher.setState("FL");
 
+        publisherRepository.save(publisher);
+
         Author eric = new Author("Eric", "Evans");
         Book ddd = new Book("Domain Driven Design", "123123");
         eric.getBooks().add(ddd);
