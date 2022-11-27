@@ -23,13 +23,13 @@ public class Publisher {
     public Publisher() {
     }
 
-    public Publisher(String name, String address, String city, String state, String zip) {
-        this.name = name;
-        this.address = address;
-        this.city = city;
-        this.state = state;
-        this.zip = zip;
-    }
+//    public Publisher(String name, String address, String city, String state, String zip) {
+//        this.name = name;
+//        this.address = address;
+//        this.city = city;
+//        this.state = state;
+//        this.zip = zip;
+//    }
 
     public Long getId() {
         return id;
