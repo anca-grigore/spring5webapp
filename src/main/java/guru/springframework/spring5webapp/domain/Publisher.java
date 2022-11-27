@@ -79,6 +79,14 @@ public class Publisher {
         this.zip = zip;
     }
 
+    public Set<Book> getBooks() {
+        return books;
+    }
+
+    public void setBooks(Set<Book> books) {
+        this.books = books;
+    }
+
     @Override
     public String toString() {
         return "Publisher{" +
